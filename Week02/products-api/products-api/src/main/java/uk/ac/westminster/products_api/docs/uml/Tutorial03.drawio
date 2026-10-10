@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="8_Ma2osUsBUsmMVlQGGm">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hSdBjaLG77nLL9RRCly_-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Product&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="270" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hSdBjaLG77nLL9RRCly_-6" parent="hSdBjaLG77nLL9RRCly_-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;- id : Long,&amp;nbsp;&lt;/li&gt;&lt;li&gt;- name : String,&amp;nbsp;&lt;/li&gt;&lt;li&gt;- price : double&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="86" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hSdBjaLG77nLL9RRCly_-7" parent="hSdBjaLG77nLL9RRCly_-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="112" as="geometry" />
+        </mxCell>
+        <mxCell id="hSdBjaLG77nLL9RRCly_-8" parent="hSdBjaLG77nLL9RRCly_-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;ul&gt;&lt;li&gt;+ public Product () {}&lt;/li&gt;&lt;li&gt;+ public Product (Long id, String name, double price) {this.is = id; this.name= name; this.price = price}&lt;/li&gt;&lt;li&gt;+ public Long getId() {return id;}&lt;/li&gt;&lt;li&gt;+ public String getName() {return name;}&lt;/li&gt;&lt;li&gt;+ npublic double getPrice() {return price;}&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="140" width="270" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
